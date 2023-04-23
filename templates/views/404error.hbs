@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+   {{>navbar}}
+<!-- main header -->
+     
+    <div class = "container-fluid main_header">
+        <div class="row">
+            <div class = "col-md-10 col-12 mx-auto">
+                <div class="row">
+
+                    <div class="col-md-12 col-12 main_header_left align_items_center my-app">
+                        <figure>
+                            <img src = "images/404errors.webp" alt ="images" class="img-fluid" title="PriyanshiRathour"/>
+                        </figure>
+                        <p class="align_items_center"> Welcome to Priyanshi World</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button> go back</button></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer code -->
+    {{>footer}}
+
+</body>
+</html>
